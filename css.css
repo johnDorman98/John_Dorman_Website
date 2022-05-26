@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background-color: #caf0f8;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h1 {
+    color: #023e8a;
+}
+
+h2 {
+    color: #0077b6;
+}
+
+h3 {
+    color: #0096c7;
+}
+
+p {
+    color: #03045e;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px;
+}
+
+li {
+    color: #03045e;
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+}
+
+hr {
+    height: 2px;
+    background-color: #03045e;
+    border: none;
+}
+
+.profile-img {
+    border: double 5px transparent;
+    border-radius: 50%;
+    background-image: linear-gradient(white, white), 
+                      linear-gradient(to right, #0077b6, #90e0ef);
+    background-origin: border-box;
+    background-clip: content-box, border-box; 
+    width: auto;
+    height: auto;
+  }
